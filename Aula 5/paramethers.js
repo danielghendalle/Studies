@@ -22,4 +22,9 @@ function multiplicar(number1 = 1, number2 = 1){
     return number1 * number2
 }
 
-console.log(multiplicar(soma(5, 6)))
+// console.log(multiplicar(soma(5, 6)))
+
+function comParametro(param) {
+    console.log(param)
+}
+comParametro()
